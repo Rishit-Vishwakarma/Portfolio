@@ -1,0 +1,156 @@
+.swap{
+    width: 100%;
+    transition: transform  0.5s ease;
+}
+
+.heading h1{
+    font-size: 85px;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    margin: 100px 0;
+    color: #2E2C39;
+}
+
+span{
+    color: #3D8D7A;
+}
+
+.project-info .i{
+    height: 400px;
+}
+
+@media (max-width: 425px) {
+    .heading h1{
+        font-size: 65px;
+        font-family: "Poppins", sans-serif;
+        width: 100%;
+        margin: 100px 0;
+        color: #2E2C39;
+    }
+
+    .project-info .project-text-1{
+        height: 155px;
+    }
+
+    
+}
+
+.nav-links a.active,
+.foot-nav a.active {
+    color: #3D8D7A;
+}
+
+.icon-wrapper img{
+    padding: 0;
+}
+
+.i2{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.la2{
+    width: 180px;
+}
+
+.project-img-1t{
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+    background-color: #3D8D7A;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/projectImg/image.png);
+}
+
+.project-img-2t{
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+    background-color: #3D8D7A;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/projectImg/image.png);
+}
+
+.project-img-3t{
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+    background-color: #3D8D7A;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/projectImg/image.png);
+}
+.project-img-4t{
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+    background-color: #3D8D7A;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/projectImg/image.png);
+}
+
+.main-img-1t{
+    width: 90%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #3D8D7A;
+    background-image: url(../assets/projectImg/MovixImg.png);
+    background-size: cover;
+    background-position: top;
+}
+.main-img-2t{
+    width: 90%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #3D8D7A;
+    background-image: url(../assets/projectImg/SmsImg2.png);
+    background-size: cover;
+    background-position: top;
+}
+.main-img-3t{
+    width: 90%;
+    height: 95%;
+    border-radius: 20px;
+    background-color: #3D8D7A;
+    background-image: url(../assets/projectImg/Bank.png);
+    background-size: cover;
+    background-position: center;
+}
+.main-img-4t{
+    width: 90%;
+    height: 95%;
+    border-radius: 20px;
+    background-color: #3D8D7A;
+    background-image: url(../assets/projectImg/Weather.png);
+    background-size: cover;
+    background-position: top;
+}
+
+.project-text-1 .o2{
+    width: 280px;
+}
+
+.project-text-1 .ph{
+    width: 240px;
+}
+
+@media (max-width: 375px) {
+    .project-info .i{
+        height: 200px;
+    }
+}

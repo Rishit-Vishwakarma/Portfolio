@@ -1,0 +1,10 @@
+@media (max-width: 2560px){
+    .parent-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .comp{
+        width: 1360px;
+    }
+}

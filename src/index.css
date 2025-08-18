@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+}
+
+body{
+     padding: 0 50px;
+}
+
+@media (max-width: 1440px){
+    body{
+        padding-left: clamp(20px, 2.78vw, 40px);
+        padding-right: clamp(20px, 2.78vw, 40px);
+    }
+}
+
+

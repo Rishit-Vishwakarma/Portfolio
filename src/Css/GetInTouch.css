@@ -1,0 +1,238 @@
+.pre{
+    height: 600px;
+}
+
+.GIT-container{
+    transition: transform  0.5s ease;
+}
+
+.GIT-container{
+    width: 100%;
+    display: flex;
+    
+}
+
+.GIT-container .GIT-content{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.GIT-content h2{
+    font-size: 90px;
+    font-family: "Poppins", sans-serif;
+    color: #2E2C39;
+    padding: 0 0 30px 0;
+}
+
+i{
+    display: flex;
+    gap: 30px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .GIT-container .GIT-content{
+        height: 250px;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 350px) {
+    i{
+        display: flex;
+        gap: 10px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .info i p{
+        font-size: 17px;
+    }
+
+    .ss{
+        display: block;
+    }
+}
+
+.GIT-content p{
+    font-size: clamp(18px, 2.15vw ,24px);
+    color: rgb(102, 102, 102);
+    font-family: "Poppins", sans-serif;
+}
+.GIT-content {
+    height: 300px;
+}
+
+.GIT-profile-pic{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.GIT-pic{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-image: url(../assets/profile.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+@media(max-width: 1024px){
+    .GIT-content h2{
+        font-size: clamp(58px,7.1vw,90px);
+    }
+}
+
+@media(max-width: 1150px){
+    .GIT-container{
+        display: block;
+        padding-top: 0;
+    }
+
+    .GIT-content{
+        width: 100%;
+        height: 350px;
+    }
+
+    .GIT-profile-pic{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 450px;
+    }
+
+    .GIT-pic{
+        width: 400px;
+        height: 400px;
+        background-color: #3D8D7A;
+        border-radius: 50%;
+    }
+}
+
+@media(max-width: 425px){
+
+    .GIT-content{
+        height: 350px;
+    }
+
+    .GIT-pic{
+        width: 250px;
+        height: 250px;
+        background-color: #3D8D7A;
+        border-radius: 50%;
+    }
+
+    .GIT-profile-pic{
+        height: 350px;
+    }
+
+    .resume{
+    text-decoration: none;
+    font-size: 18px;
+    color: #666666;
+    font-weight: bold;
+}
+}
+
+@media (min-width: 320px) and (max-width: 375px){
+    .GIT-pic{
+        width: 250px;
+        height: 250px;
+        background-color: #3D8D7A;
+        border-radius: 50%;
+    }
+
+    .GIT-profile-pic{
+        height: 250px;
+    }
+
+    .GIT-content{
+        height: 450px;
+    }
+}
+
+.Soc-media-git{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.icon-wrapper-git:hover .i-five-git {
+  opacity: 0;
+}
+
+.icon-wrapper-git:hover .i-four-git {
+  opacity: 1;
+}
+
+.icon-wrapper-git:hover .i-five-git {
+  opacity: 0;
+  
+}
+
+.i-four-git, .i-five-git {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.icon-wrapper-git {
+  position: relative;
+  display: inline-block;
+}
+
+.icon{
+    font-size: 30px;
+}
+
+.i-five-git{
+    font-size: 30px;
+}
+.i-four-git{
+    font-size: 30px;
+}
+
+.na-git a{
+    text-decoration: none;
+}
+
+.i-three-git i:hover{
+    color: black;
+    transition: all .1s ease-in-out;
+}
+
+.i-two-git i:hover{
+    color: black;
+    transition: all .1s ease-in-out;
+}
+
+.i-one-git i:hover{
+    color: #0A66C2;
+    transition: all .1s ease-in-out;
+}
+
+.icon-wrapper-git img{
+    padding: 0;
+}
+
+@media (max-width: 320px) {
+    .GIT-profile-pic{
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 350px) {
+    .GIT-profile-pic{
+        padding-top: 50px;
+    }
+}
+
