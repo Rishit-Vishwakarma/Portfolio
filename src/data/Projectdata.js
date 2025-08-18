@@ -1,6 +1,6 @@
 import movix from '../assets/projectImg/MovixImg.png'
 import SmsImg from '../assets/projectImg/SmsImg2.png'
-import bank from '../assets/projectImg/bank.png'
+import bank from '../assets/projectImg/Bank.png'
 import weather from '../assets/projectImg/weather.png'
 
 const projectsData = [
