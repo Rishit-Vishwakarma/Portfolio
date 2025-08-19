@@ -8,4 +8,4 @@ Welcome to my personal portfolio! This project showcases my skills, projects, an
 - Contact section for professional inquiries
 
 
-Check out the portfolio [here]() 
+Check out the portfolio [here](https://rishitportfolio.netlify.app/) 
