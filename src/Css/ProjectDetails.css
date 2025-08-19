@@ -20,6 +20,8 @@
 .par{
     display: flex;
     justify-content: center;
+    width: 100%;
+    transition: transform  0.5s ease;
 }
 
 .pd {

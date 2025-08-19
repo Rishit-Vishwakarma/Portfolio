@@ -11,8 +11,8 @@ const Navbar = ({onMenuToggle}) =>{
 
     const toggleMenu = () => {
         const newState = !isOpen;
-        setIsOpen(!isOpen);
-        onMenuToggle(!isOpen)
+        setIsOpen(newState);
+        onMenuToggle(newState)
     }
 
     return(
@@ -27,14 +27,14 @@ const Navbar = ({onMenuToggle}) =>{
                 </div>
 
             <div className={`hamburger-menu ${isOpen ? "open" : ""}`}>
-                <NavLink to="/" className={({ isActive }) => isActive ? "active" : ""}>Home</NavLink>
-                <NavLink to="/Project" className={({isActive}) => isActive ? "active" : ""}>Projects</NavLink>
-                <NavLink to="/GetInTouch" className={({isActive}) => isActive ? "active" : ""}>Contact Me</NavLink>
+                <NavLink to="/" className={({ isActive }) => isActive ? "active" : ""} onClick={() => {setIsOpen(false); onMenuToggle(false); }}>Home</NavLink>
+                <NavLink to="/Project" className={({isActive}) => isActive ? "active" : ""} onClick={() => {setIsOpen(false); onMenuToggle(false); }}>Projects</NavLink>
+                <NavLink to="/GetInTouch" className={({isActive}) => isActive ? "active" : ""} onClick={() => {setIsOpen(false); onMenuToggle(false); }}>Contact Me</NavLink>
             </div>
 
             <div className="nav-links">
-                <NavLink to="/" className={({ isActive }) => isActive ? "active" : "" }>Home</NavLink>
-                <NavLink to="/Project" className={({isActive}) => isActive ? "active" : ""}>Projects</NavLink>
+                <NavLink to="/" className={({ isActive }) => isActive ? "active" : "" } onClick={() => {setIsOpen(false); onMenuToggle(false);}}>Home</NavLink>
+                <NavLink to="/Project" className={({isActive}) => isActive ? "active" : ""} onClick={() => {setIsOpen(false); onMenuToggle(false); }}>Projects</NavLink>
 
                 <div className="resume">
                     <a href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
@@ -42,7 +42,7 @@ const Navbar = ({onMenuToggle}) =>{
             </div>
 
             <div className="nav-msg">
-                <NavLink to="/GetInTouch" className={({isActive}) => isActive ? "active" : ""}>
+                <NavLink to="/GetInTouch" className={({isActive}) => isActive ? "active" : ""} onClick={() => {setIsOpen(false); onMenuToggle(false); }}>
                     <i className="bi bi-chat-dots-fill" ></i>
                 </NavLink>
                 

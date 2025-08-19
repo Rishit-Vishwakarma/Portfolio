@@ -54,7 +54,7 @@ const Projects = ({menuOpen, setMenuOpen}) =>{
                                 <i className="bi bi-arrow-up-right-circle"></i>
                             </div>
                         </div>
-                        <div className="project-description-1"><p>A React-based movie search application using OMDB API, allowing users to add favorites and track watch history locally via localStorage.</p></div>
+                        <div className="project-description-1"><p>A console-based banking application for managing user accounts and transactions.</p></div>
                     </div>
                 </div>
                 <div className="project-info-4 res p1">
@@ -68,7 +68,7 @@ const Projects = ({menuOpen, setMenuOpen}) =>{
                                 <i className="bi bi-arrow-up-right-circle"></i>
                             </div>
                         </div>
-                        <div className="project-description-1"><p>A React-based movie search application using OMDB API, allowing users to add favorites and track watch history locally via localStorage.</p></div>
+                        <div className="project-description-1"><p>A simple weather application to find real-time weather data for any city.</p></div>
                     </div>
                 </div>
             </div>

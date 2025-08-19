@@ -20,9 +20,9 @@ const ProjectDetails = ({menuOpen, setMenuOpen}) =>{
     )
   }
     return(
-        <div className="pd-wrapper">
-      <Navbar />
-        <div className="par">
+        <div className="pd-wrapper" >
+      <Navbar onMenuToggle={setMenuOpen}/>
+        <div className="par" style={{ transform: menuOpen ? "translateY(150px)" : "translateY(0)" }}>
       <main className="pd">
         {/* HERO */}
         <section className="pd-hero">
