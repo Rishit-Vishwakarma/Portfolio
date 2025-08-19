@@ -73,7 +73,7 @@ const Project = ({menuOpen, setMenuOpen}) => {
                     </div>
                     <div className="project-text-1">
                         <div className="proj-title-1 la2" onClick={() => {handleProjectClick(4)}}  style={{cursor: "pointer"}}>
-                             <h3>Wether site</h3>
+                             <h3>Weather site</h3>
                             <div className="icon">
                                 <i className="bi bi-arrow-up-right-circle"></i>
                             </div>
